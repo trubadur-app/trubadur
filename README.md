@@ -100,6 +100,11 @@ G#m: [4,6,6,4,4,4]
 If you know how to work with Github and JSON, you can make changes to [this file](https://github.com/trubadur-app/trubadur-source/blob/master/src/frontend/javascripts/song-text-parse/music-theory/music-theory-data.js) directly and submit a merge request to the `trubadur-source` repository.
 
 
+## Changelog
+
+The changelog explaining what each new version contains can be found [here](https://github.com/trubadur-app/trubadur-source/blob/master/CHANGELOG.md).
+
+
 ## Code
 
 The code for the Trubadur software can be found [here](https://github.com/trubadur-app/trubadur-source).
