@@ -74,7 +74,7 @@ G:
 G#:
 ```
 
-You need to define guitar instructions for each of the 12 semitones so that transposing work for the chord. The [0,0,0,0,0,0] part should represent how to play the chords on the guitar, where the first number is for the lowE string, the second number is for the A string etc. The number represents the fret number on the guitar. If you put -1 it means that the string should not be played.
+You need to define guitar instructions for each of the 12 semitones so that transposing works for the chord. The [0,0,0,0,0,0] part should represent how to play the chord on the guitar for the given semitone, where the first number is for the low E string, the second number is for the A string etc. The number represents the fret number on the guitar. If you put -1 it means that the string should not be played.
 
 
 Here is an example if we were to suggest the chord "minor" (e.g. Am, Bm, Cm ...):
