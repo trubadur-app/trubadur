@@ -38,7 +38,7 @@ In the "Settings" view of the application you can select a different path for th
 
 ## Report a bug
 
-Found a bug? You can report it to the developers of the Trubadur application by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check first if the bug has already been reported before. If it hasn't been reported before, create a new issue and add the label "bug". Describe the bug you found in detail with:
+Found a bug? You can report it to the developers of the Trubadur application by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check first if the bug has already been reported before. If it hasn't been reported before, create a new issue and add the label **bug**. Describe the bug you found in detail with:
 
 1. What you did in the application that led to the bug
 2. What you experienced (i.e. describe the bug itself)
@@ -47,14 +47,14 @@ Found a bug? You can report it to the developers of the Trubadur application by 
 
 ## Suggest a feature
 
-Do you want to suggest a new feature to the developers of the Trubadur application? We happily take suggestions for new features. However, they can only be developed if any of the developers have the time for it and if the developers agree that the feature is needed. To suggest a new feature, you can do so by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please add the label "enhancement", and describe the feature you are suggesting. Please make sure that the feature has not been suggested already, before you create a new issue.
+Do you want to suggest a new feature to the developers of the Trubadur application? We happily take suggestions for new features. However, they can only be developed if any of the developers have the time for it and if the developers agree that the feature is needed. To suggest a new feature, you can do so by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please add the label **enhancement**, and describe the feature you are suggesting. Please make sure that the feature has not been suggested already, before you create a new issue.
 
 
 ## Missing chord
 
 Is there a chord missing in the application? This is apparent by the chord not being recognized by the application. Example:
 
-You can report it by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check before if the missing chord has already been reported. If you create a new issue, add the label "missing chord" to the new issue. You can assist with adding the chord to the application by filling out the following template and adding it to the issue:
+You can report it by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check before if the missing chord has already been reported. If you create a new issue, add the label **missing chord** to the new issue. You can assist with adding the chord to the application by filling out the following template and adding it to the issue:
 
 ```
 Chord: 
