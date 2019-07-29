@@ -102,7 +102,7 @@ If you know how to work with Github and JSON, you can make changes to [this file
 
 ## Changelog
 
-The changelog explaining what each new version contains can be found [here](https://github.com/trubadur-app/trubadur-source/blob/master/CHANGELOG.md).
+The changelog, explaining what each new version contains, can be found [here](https://github.com/trubadur-app/trubadur-source/blob/master/CHANGELOG.md).
 
 
 ## Code
