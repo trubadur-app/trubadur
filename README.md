@@ -10,8 +10,7 @@ Trubadur is an Open Source and FREE software for editing your lyrics and guitar 
 ## Installation
 
 1. Make sure you have [Java](https://www.java.com/en/download/) installed and updated to the latest version
-2. Find the [latest version](https://github.com/trubadur-app/trubadur/releases/latest) of the Trubadur application
-3. Download the file called "trubadur-1.\*.\*.\*.jar", for instance `trubadur-1.0.0.jar` but with the latest version instead of version 1.0.0. This is found under "Assets".
+2. Find the [latest version](https://github.com/trubadur-app/trubadur/releases/latest) of the Trubadur application. Download the file called `trubadur-1.\*.\*.\*.jar`, for instance `trubadur-1.0.0.jar` but with the latest version instead of version 1.0.0. This is found under "Assets".
 4. Create a directory somewhere on your computer (for instance in your Applications directory) and name it "Trubadur"
 5. Place the JAR-file you downloaded in this newly created directory
 6. You can now run the JAR-file like a normal application by double-clicking
