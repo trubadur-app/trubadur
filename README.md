@@ -41,17 +41,19 @@ This data directory contains all the data you input to the application, such as 
 
 ### Browser view
 
-In addition to the desktop application (the JAR-file), you can also view your application data in a web browser, for instance Google Chrome, Firefox or Safari. However, when you use the application in the browser you will not be able to make any changes to the data, only view your content. Changes are always made through the dekstop application (the JAR-file).
+In addition to the desktop application (the JAR-file), you can also view your application content in a web browser, for instance Google Chrome, Firefox or Safari. However, when you use the application in the browser you will not be able to make any changes, which means it is only possible to view your content and not edit it. Changes are always made through the dekstop application (the JAR-file).
+
+This is how the browser version (Read Only version) looks like:
 
 ![Read only version](https://github.com/trubadur-app/trubadur/blob/master/images/read-only.png)
 
-To view the application in the browser with your content you need to locate the `trubadur-read-only-data-copy.json` file, which is a read-only copy of your application data, that is stored in the `data` directory, i.e. `data/trubadur-read-only-data-copy.json`.
+To view the application in the browser with your content, you need to locate the `trubadur-read-only-data-copy.json` file, which is a read-only copy of your application data that is stored in the `data` directory, i.e. `data/trubadur-read-only-data-copy.json`.
 
 ![Read only file highlighted](https://github.com/trubadur-app/trubadur/blob/master/images/file5.png)
 
-This file is generated automatically after each time you close the desktop application, and contains a duplication and read-only version of your application data. It is safe to delete this file or move it, since your application data is stored in the subdirectories of the `data` directory, e.g. `data/song`, `data/playlist`, and since this file is created again when you close the application next time.
+This file is generated automatically after each time you close the desktop application, and it contains a duplication and read-only version of your application data. It is safe to delete this file or move it, since your original application data is stored in the subdirectories of the `data` directory, e.g. `data/song`, `data/playlist`, and since this file is created again when you close the application the next time.
 
-You can now enter the following [web page](https://storage.googleapis.com/trubadur-app-read-only/index.html). When asked for a data-file, you simply select the `trubadur-read-only-data-copy.json` file from your computer. This file will be locally processed in your browser, and you can now view your application content in your browser.
+You can now enter the following [web page](https://storage.googleapis.com/trubadur-app-read-only/index.html). When asked for a data file, you simply select the `trubadur-read-only-data-copy.json` file from your computer. This file will be locally processed in your browser, and you can now view your application content in your browser.
 
 ![Data file prompt](https://github.com/trubadur-app/trubadur/blob/master/images/file-upload.png)
 
@@ -60,13 +62,13 @@ You can now enter the following [web page](https://storage.googleapis.com/trubad
 
 ### Mobile support
 
-If you want to view your application content in your browser on a mobile or tablet device, you can use the "Browser view" which is explained above and open the [url](https://storage.googleapis.com/trubadur-app-read-only/index.html) on your mobile/tablet device. This means, however, that you need to transfer your `trubadur-read-only-data-copy.json` file to your other device in order to load it in that device's browser. This can be done, for instance, by putting the `trubadur-read-only-data-copy.json` file in an Online Storage, such as Dropbox or Google Drive, and synchronize that storage to your other device.
+If you want to view your application content in your browser on a mobile or tablet device you can use the [Browser view](https://github.com/trubadur-app/trubadur#browser-view), which is explained above, and open the [url](https://storage.googleapis.com/trubadur-app-read-only/index.html) on your mobile/tablet device. This means, however, that you need to transfer your `trubadur-read-only-data-copy.json` file to your other device in order to load it in that device's browser. This can be done, for instance, by putting the `trubadur-read-only-data-copy.json` file in an Online Storage, such as Dropbox or Google Drive, and synchronize that storage to your other device.
 
 In the settings view of the Trubadur dekstop application you can select a different path for the `trubadur-read-only-data-copy.json` file, other than the default path `data/trubadur-read-only-data-copy.json`, if you want the read-only data file to be saved elsewhere on your computer everytime the Trubadur application is closed. The settings view can be opened by pressing the "cog" icon in your Trubadur desktop application.
 
 ![Settings cog icon](https://github.com/trubadur-app/trubadur/blob/master/images/cog.png)
 
-Under "File path for read-only data copy" you can then select a different path for your `trubadur-read-only-data-copy.json` file.
+Under "File path for read-only data copy", you can then select a different path that will be used when the application saves your `trubadur-read-only-data-copy.json` file.
 
 
 ## Report a bug
@@ -75,21 +77,21 @@ Found a bug? You can report it to the developers of the Trubadur application by 
 
 1. What you did in the application that led to the bug
 2. What you experienced (i.e. describe the bug itself)
-3. What you expected to happen instead.
+3. What you expected to happen instead of the observed behaviour
 
 
 ## Suggest a feature
 
-Do you want to suggest a new feature to the developers of the Trubadur application? We happily take suggestions for new features. However, they can only be developed if any of the developers have the time for it and if the developers agree that the feature is needed. To suggest a new feature, you can do so by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please add the label **enhancement**, and describe the feature you are suggesting. Please make sure that the feature has not been suggested already, before you create a new issue.
+Do you want to suggest a new feature to the developers of the Trubadur application? We happily take suggestions for new features. However, the feature suggestions can only be developed if any of the developers have the time for it and if the developers agree that the feature is needed or useful. To suggest a new feature, you can do so by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please add the label **feature suggestion**, and describe the feature you are suggesting. Please make sure that the feature has not been suggested already, before you create a new issue.
 
 
 ## Missing chord
 
-Is there a chord missing in the application? This is apparent by the chord not being recognized by the application. Example of how it looks in the application:
+Is there a chord missing in the application? This is apparent by the chord not being recognized by the application, which looks like this:
 
 ![Missing chord example](https://github.com/trubadur-app/trubadur/blob/master/images/missing-chord.png)
 
-You can report it by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check before if the missing chord has already been reported. If you create a new issue, add the label **missing chord** to the new issue. You can assist with adding the chord to the application by filling out the following template and adding it to the issue:
+You can report it by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check before if the missing chord has already been reported. If you create a new issue, add the label **missing chord** to the new issue. You can assist with adding the chord to the application by filling out the following template and adding it to the issue description:
 
 ```
 Chord: 
@@ -109,10 +111,10 @@ G:
 G#:
 ```
 
-You need to define guitar instructions for each of the 12 semitones so that transposing works for the chord. The [0,0,0,0,0,0] part should represent how to play the chord on the guitar for the given semitone, where the first number is for the low E string, the second number is for the A string etc. The number represents the fret number on the guitar. If you put -1 it means that the string should not be played.
+In this template you can define guitar instructions for each of the 12 semitones. The chord is needed once for every semitone so that transposing works for the new chord. The [0,0,0,0,0,0] part should represent how to play the chord on the guitar for the given semitone, where the first number is for the low E string, the second number is for the A string etc. The number represents the fret number on the guitar. If you put `-1` it means that the string should not be played.
 
 
-Here is an example if we were to suggest the chord "minor" (e.g. Am, Bm, Cm ...):
+Here is an example if we were to suggest the chord "minor" (e.g. Am, A#m, Bm, Cm ...):
 
 ```
 Chord: Minor
@@ -132,7 +134,7 @@ Gm: [3,5,5,3,3,3]
 G#m: [4,6,6,4,4,4]
 ```
 
-If you know how to work with Github and JSON, you can make changes to [this file](https://github.com/trubadur-app/trubadur-source/blob/master/src/frontend/javascripts/song-text-parse/music-theory/music-theory-data.js) directly and submit a merge request to the `trubadur-source` repository.
+If you know how to work with Github and JavaScript, you can make changes to [this file](https://github.com/trubadur-app/trubadur-source/blob/master/src/frontend/javascripts/song-text-parse/music-theory/music-theory-data.js) directly and submit a merge request to the `trubadur-source` repository.
 
 
 ## Changelog
