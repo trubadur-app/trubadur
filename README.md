@@ -21,19 +21,29 @@ Trubadur is an Open Source and FREE software for editing your lyrics and guitar 
 
 ## How it works
 
-The Trubadur application is a JAR-file that can be run to open the application. When it opens for the first time, a `data` directory is created next to the application JAR-file.
+The Trubadur application is a JAR-file that can be run to open the application on a desktop computer. When it opens for the first time, a `data` directory is created next to the application JAR-file.
 
 This data directory contains all the data you input to the application, such as the songs, playlists and labels. This means that your application data is stored on your computer where you are running the application.
 
-You can also view your application data in a web browser, for instance Google Chrome, Firefox or Safari. However, when you use the application in the browser you will not be able to make any changes to the data, only view your content. Changes are always made through the dekstop application (the JAR-file).
 
-To view the application in the browser you need to locate the `trubadur-storage-data.json` file, which is a read-only version of your application data that is stored in the `data` directory.
+### Browser view
 
-This file is generated automatically after each time you close the desktop application, and contains a duplication and read-only version of your application data.
+In addition to the desktop application (the JAR-file), you can also view your application data in a web browser, for instance Google Chrome, Firefox or Safari. However, when you use the application in the browser you will not be able to make any changes to the data, only view your content. Changes are always made through the dekstop application (the JAR-file).
 
-You can now enter the following [web page](https://storage.googleapis.com/trubadur-app-read-only/index.html). When asked for a data-file, you simply select the `trubadur-storage-data.json` file from your computer. This file will be locally processed in your browser, and you can now view your application content in your browser.
+To view the application in the browser with your content you need to locate the `trubadur-read-only-data-copy.json` file, which is a read-only copy of your application data, that is stored in the `data` directory, i.e. `data/trubadur-read-only-data-copy.json`.
 
-In the "Settings" view of the application you can select a different path for the `trubadur-storage-data.json` file other than the default path `data/trubadur-storage-data.json`, if you want the read-only data file to be saved elsewhere on your computer.
+This file is generated automatically after each time you close the desktop application, and contains a duplication and read-only version of your application data. It is safe to delete this file or move it, since your application data is stored in the subdirectories of the `data` directory, e.g. `data/song`, `data/playlist`, and since this file is created again when you close the application next time.
+
+You can now enter the following [web page](https://storage.googleapis.com/trubadur-app-read-only/index.html). When asked for a data-file, you simply select the `trubadur-read-only-data-copy.json` file from your computer. This file will be locally processed in your browser, and you can now view your application content in your browser.
+
+
+### Mobile support
+
+If you want to view your application content in your browser on a mobile or tablet device, you can use the "Browser view" which is explained above and open the [url](https://storage.googleapis.com/trubadur-app-read-only/index.html) on your mobile/tablet device. This means, however, that you need to transfer your `trubadur-read-only-data-copy.json` file to your other device in order to load it in that device's browser. This can be done, for instance, by putting the `trubadur-read-only-data-copy.json` file in an Online Storage, such as Dropbox or Google Drive, and synchronize that storage to your other device.
+
+In the settings view of the Trubadur dekstop application you can select a different path for the `trubadur-read-only-data-copy.json` file, other than the default path `data/trubadur-read-only-data-copy.json`, if you want the read-only data file to be saved elsewhere on your computer everytime the Trubadur application is closed. The settings view can be opened by pressing the "cog" icon in your Trubadur desktop application.
+
+Under "File path for read-only data copy" you can then select a different path for your `trubadur-read-only-data-copy.json` file.
 
 
 ## Report a bug
