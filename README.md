@@ -2,6 +2,9 @@
 
 Trubadur is an Open Source and FREE software for editing your lyrics and guitar chords/tabs.
 
+![Trubadur desktop application](https://github.com/trubadur-app/trubadur/blob/master/images/song-overview1.png)
+
+
 ## License
 
 [MIT license](https://github.com/trubadur-app/trubadur-source/blob/master/LICENSE.md)
@@ -12,7 +15,11 @@ Trubadur is an Open Source and FREE software for editing your lyrics and guitar 
 1. Make sure you have [Java](https://www.java.com/en/download/) installed and updated to the latest version
 2. Find the [latest version](https://github.com/trubadur-app/trubadur/releases/latest) of the Trubadur application. Download the file called `trubadur-1.*.*.*.jar`, for instance `trubadur-1.0.0.jar` but with the latest version instead of version 1.0.0. This is found under "Assets".
 4. Create a directory somewhere on your computer (for instance in your Applications directory) and name it "Trubadur"
+	![Application directory example](https://github.com/trubadur-app/trubadur/blob/master/images/file1.png)
+
 5. Place the JAR-file you downloaded in this newly created directory
+	![Application directory with JAR](https://github.com/trubadur-app/trubadur/blob/master/images/file2.png)
+
 6. You can now run the JAR-file like a normal application by double-clicking
 
 
@@ -20,23 +27,37 @@ Trubadur is an Open Source and FREE software for editing your lyrics and guitar 
 
 ![Data folder](https://github.com/trubadur-app/trubadur/blob/master/images/file3.png)
 
+![Data folder content](https://github.com/trubadur-app/trubadur/blob/master/images/file4.png)
+
 
 ## How it works
 
 The Trubadur application is a JAR-file that can be run to open the application on a desktop computer. When it opens for the first time, a `data` directory is created next to the application JAR-file.
 
+![Data folder](https://github.com/trubadur-app/trubadur/blob/master/images/file3.png)
+
 This data directory contains all the data you input to the application, such as the songs, playlists and labels. This means that your application data is stored on your computer where you are running the application.
+
+![Data folder content](https://github.com/trubadur-app/trubadur/blob/master/images/file6.png)
 
 
 ### Browser view
 
 In addition to the desktop application (the JAR-file), you can also view your application data in a web browser, for instance Google Chrome, Firefox or Safari. However, when you use the application in the browser you will not be able to make any changes to the data, only view your content. Changes are always made through the dekstop application (the JAR-file).
 
+![Read only version](https://github.com/trubadur-app/trubadur/blob/master/images/read-only.png)
+
 To view the application in the browser with your content you need to locate the `trubadur-read-only-data-copy.json` file, which is a read-only copy of your application data, that is stored in the `data` directory, i.e. `data/trubadur-read-only-data-copy.json`.
+
+![Read only file highlighted](https://github.com/trubadur-app/trubadur/blob/master/images/file5.png)
 
 This file is generated automatically after each time you close the desktop application, and contains a duplication and read-only version of your application data. It is safe to delete this file or move it, since your application data is stored in the subdirectories of the `data` directory, e.g. `data/song`, `data/playlist`, and since this file is created again when you close the application next time.
 
 You can now enter the following [web page](https://storage.googleapis.com/trubadur-app-read-only/index.html). When asked for a data-file, you simply select the `trubadur-read-only-data-copy.json` file from your computer. This file will be locally processed in your browser, and you can now view your application content in your browser.
+
+![Data file prompt](https://github.com/trubadur-app/trubadur/blob/master/images/file-upload.png)
+
+![Data file prompt with content](https://github.com/trubadur-app/trubadur/blob/master/images/file-upload-with-content.png)
 
 
 ### Mobile support
@@ -44,6 +65,8 @@ You can now enter the following [web page](https://storage.googleapis.com/trubad
 If you want to view your application content in your browser on a mobile or tablet device, you can use the "Browser view" which is explained above and open the [url](https://storage.googleapis.com/trubadur-app-read-only/index.html) on your mobile/tablet device. This means, however, that you need to transfer your `trubadur-read-only-data-copy.json` file to your other device in order to load it in that device's browser. This can be done, for instance, by putting the `trubadur-read-only-data-copy.json` file in an Online Storage, such as Dropbox or Google Drive, and synchronize that storage to your other device.
 
 In the settings view of the Trubadur dekstop application you can select a different path for the `trubadur-read-only-data-copy.json` file, other than the default path `data/trubadur-read-only-data-copy.json`, if you want the read-only data file to be saved elsewhere on your computer everytime the Trubadur application is closed. The settings view can be opened by pressing the "cog" icon in your Trubadur desktop application.
+
+![Settings cog icon](https://github.com/trubadur-app/trubadur/blob/master/images/cog.png)
 
 Under "File path for read-only data copy" you can then select a different path for your `trubadur-read-only-data-copy.json` file.
 
@@ -64,7 +87,9 @@ Do you want to suggest a new feature to the developers of the Trubadur applicati
 
 ## Missing chord
 
-Is there a chord missing in the application? This is apparent by the chord not being recognized by the application. Example:
+Is there a chord missing in the application? This is apparent by the chord not being recognized by the application. Example of how it looks in the application:
+
+![Missing chord example](https://github.com/trubadur-app/trubadur/blob/master/images/missing-chord.png)
 
 You can report it by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check before if the missing chord has already been reported. If you create a new issue, add the label **missing chord** to the new issue. You can assist with adding the chord to the application by filling out the following template and adding it to the issue:
 
