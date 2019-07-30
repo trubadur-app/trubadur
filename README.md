@@ -18,6 +18,8 @@ Trubadur is an Open Source and FREE software for editing your lyrics and guitar 
 
 **Note!** Once you have run the application for the first time there is a directory created next to the JAR-file called `data`. This is where all your application data is stored. Make sure to regurarly backup this directory so that you always can restore the application data if you ever loose it.
 
+![Data folder](https://github.com/trubadur-app/trubadur/blob/master/images/file3.png)
+
 
 ## How it works
 
