@@ -12,7 +12,7 @@ The Trubadur Software, located in https://github.com/trubadur-app/trubadur-sourc
 
 ## Note
 
-This application is still in a **beta** phase, which means that it still needs to be tested and perhaps further developed before it is stable.
+This application is still in a **beta** phase, which means that it still needs to be tested and perhaps further developed before it is fully stable.
 
 
 ## Installation
