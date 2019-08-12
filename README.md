@@ -53,7 +53,7 @@ To view the application in the browser with your content, you need to locate the
 
 This file is generated automatically after each time you close the desktop application, and it contains a duplication and read-only version of your application data. It is safe to delete this file or move it, since your original application data is stored in the subdirectories of the `data` directory, e.g. `data/song`, `data/playlist`, and since this file is created again when you close the application the next time.
 
-You can now enter the following [web page](https://storage.googleapis.com/trubadur-app-read-only/index.html). When asked for a data file, you simply select the `trubadur-read-only-data-copy.json` file from your computer. This file will be locally processed in your browser, and you can now view your application content in your browser.
+You can now enter the following [web page](http://readonly.trubadurapp.com/). When asked for a data file, you simply select the `trubadur-read-only-data-copy.json` file from your computer. This file will be locally processed in your browser, and you can now view your application content in your browser.
 
 ![Data file prompt](https://github.com/trubadur-app/trubadur/blob/master/images/file-upload.png)
 
@@ -62,7 +62,7 @@ You can now enter the following [web page](https://storage.googleapis.com/trubad
 
 ### Mobile support
 
-If you want to view your application content in your browser on a mobile or tablet device you can use the [Browser view](https://github.com/trubadur-app/trubadur#browser-view), which is explained above, and open the [url](https://storage.googleapis.com/trubadur-app-read-only/index.html) on your mobile/tablet device. This means, however, that you need to transfer your `trubadur-read-only-data-copy.json` file to your other device in order to load it in that device's browser. This can be done, for instance, by putting the `trubadur-read-only-data-copy.json` file in an Online Storage, such as Dropbox or Google Drive, and synchronize that storage to your other device.
+If you want to view your application content in your browser on a mobile or tablet device you can use the [Browser view](https://github.com/trubadur-app/trubadur#browser-view), which is explained above, and open the [url](http://readonly.trubadurapp.com/) on your mobile/tablet device. This means, however, that you need to transfer your `trubadur-read-only-data-copy.json` file to your other device in order to load it in that device's browser. This can be done, for instance, by putting the `trubadur-read-only-data-copy.json` file in an Online Storage, such as Dropbox or Google Drive, and synchronize that storage to your other device.
 
 In the settings view of the Trubadur dekstop application you can select a different path for the `trubadur-read-only-data-copy.json` file, other than the default path `data/trubadur-read-only-data-copy.json`, if you want the read-only data file to be saved elsewhere on your computer everytime the Trubadur application is closed. The settings view can be opened by pressing the "cog" icon in your Trubadur desktop application.
 
