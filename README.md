@@ -76,7 +76,17 @@ In the settings view of the Trubadur dekstop application you can select a differ
 Under "File path for read-only data copy", you can then select a different path that will be used when the application saves your `trubadur-read-only-data-copy.json` file.
 
 
-## Report a bug
+## User feedback
+
+Questions, bug reports, feature suggestions and requests for missing chords are much welcome. Please submit an issue in the issue tracker. Here are some useful links to existing issues:
+
+* [Questions](https://github.com/trubadur-app/trubadur/issues?q=is%3Aopen+is%3Aissue+label%3Aquestion)
+* [Reported bugs](https://github.com/trubadur-app/trubadur/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+* [Feature suggestions](https://github.com/trubadur-app/trubadur/issues?q=is%3Aopen+is%3Aissue+label%3A%22feature+suggestion%22)
+* [Missing chords](https://github.com/trubadur-app/trubadur/issues?q=is%3Aopen+is%3Aissue+label%3A%22missing+chord%22)
+
+
+### Report a bug
 
 Found a bug? You can report it to the developers of the Trubadur application by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please check first if the bug has already been reported before. If it hasn't been reported before, create a new issue and add the label **bug**. Describe the bug you found in detail with:
 
@@ -85,12 +95,12 @@ Found a bug? You can report it to the developers of the Trubadur application by 
 3. What you expected to happen instead of the observed behaviour
 
 
-## Suggest a feature
+### Suggest a feature
 
 Do you want to suggest a new feature to the developers of the Trubadur application? We happily take suggestions for new features. However, the feature suggestions can only be developed if any of the developers have the time for it and if the developers agree that the feature is needed or useful. To suggest a new feature, you can do so by going to [this page](https://github.com/trubadur-app/trubadur/issues) and creating a new issue. Please add the label **feature suggestion**, and describe the feature you are suggesting. Please make sure that the feature has not been suggested already, before you create a new issue.
 
 
-## Missing chord
+### Missing chord
 
 Is there a chord missing in the application? This is apparent by the chord not being recognized by the application, which looks like this:
 
