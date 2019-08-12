@@ -7,7 +7,12 @@ Trubadur is an Open Source and FREE software for editing your lyrics and guitar 
 
 ## License
 
-[MIT license](https://github.com/trubadur-app/trubadur-source/blob/master/LICENSE.md)
+The Trubadur App Software, located in https://github.com/trubadur-app/trubadur-source, is licensed under the [MIT license](https://github.com/trubadur-app/trubadur-source/blob/master/LICENSE.md).
+
+
+## Note
+
+This application is still in a **beta** phase, which means that it still needs to be tested and perhaps further developed before it is stable.
 
 
 ## Installation
