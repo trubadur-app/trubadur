@@ -166,4 +166,4 @@ The code for the Trubadur software can be found [here](https://github.com/trubad
 
 Special thanks to the following people who assisted with building up the chords database.
 
-* @scally1017
+* [@scally1017](https://github.com/scally1017)
