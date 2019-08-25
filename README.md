@@ -161,3 +161,9 @@ The changelog, explaining what each new version contains, can be found [here](ht
 
 The code for the Trubadur software can be found [here](https://github.com/trubadur-app/trubadur-source).
 
+
+## Chord contributors
+
+Special thanks to the following people who assisted with building up the chords database.
+
+* @scally1017
